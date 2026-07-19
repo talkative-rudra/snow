@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+.idea/
+
+static/*.mp3
+static/*.wav
+gemini_answer.mp3
+
+*.log
