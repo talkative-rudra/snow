@@ -17,7 +17,7 @@ except ImportError:
     pass
 
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.5-flash"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 STATIC_DIR = Path(__file__).with_name("static")
 OUTPUT_FILE = STATIC_DIR / "snow_answer.mp3"
