@@ -70,30 +70,11 @@ Open the app:
 http://127.0.0.1:5000/
 ```
 
-## Render Deployment
-
-This project should be deployed as a Render **Web Service**, not a static site.
-
-Recommended Render settings:
-
-```text
-Build Command: pip install -r requirements.txt
-Start Command: gunicorn app:app
-```
-
-Add this environment variable in Render:
-
-```text
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-Do not upload your real API key to GitHub.
 
 
 ## Notes
 
 - Microphone access works best in Chrome or Edge.
 - On hosted deployments, the browser may require HTTPS for microphone permissions.
-- Render free services may sleep after inactivity, so the first request after a pause can take longer.
 - Generated audio files are temporary runtime output and should not be committed.
 
