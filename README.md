@@ -8,7 +8,7 @@ SNOW is a dark-themed AI voice assistant built with Flask, Gemini, browser micro
 - Typed prompt input with Enter-to-send support
 - Click-to-talk microphone flow
 - Live browser-side speech preview with final server-side transcription
-- Gemini-powered answers using `gemini-2.5-flash`
+- Gemini-powered answers using `gemini-3.1-flash-lite`
 - Local answers for common prompts like time, date, greetings, and identity
 - Text-to-speech output using gTTS
 - Speaker mute/unmute that persists across messages
